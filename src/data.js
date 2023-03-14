@@ -8,7 +8,7 @@ export const projects = [
         subtitle: "MongoDB, Express, JS, Node Stack",
         description: "This was a large project completed alongside Colt Steele's Web Developer Bootcamp via Udemy",
         image: YelpCamp,
-        link: "https://pure-forest-68012.herokuapp.com/",
+        link: "https://yelp-camp-eh6b.onrender.com/",
         github: "https://github.com/christian-lee1398/YelpCamp"
     },
     {
