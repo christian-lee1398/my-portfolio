@@ -9,13 +9,14 @@ class Navbar extends Component {
     collapse(e) {
         const toggleButton = document.getElementsByClassName("toggle-button")[0];
         const navbarLinks = document.getElementsByClassName("navbar-links")[0];
-        navbarLinks.classList.toggle("active")
+        // navbarLinks.classList.toggle("active")
         toggleButton.addEventListener("click", () => {
-            if (navbarLinks.classList.contains("active")) {
-                navbarLinks.classList.remove("active")
-            } else {
-                navbarLinks.classList.add("active")
-            }
+            // if (navbarLinks.classList.contains("active")) {
+            //     navbarLinks.classList.remove("active")
+            // } else {
+            //     navbarLinks.classList.add("active")
+            // }
+            navbarLinks.classList.toggle("active")
         })
         e.preventDefault();
     }

@@ -1,15 +1,15 @@
-#about{
+#about {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
     background-position: center;
     height: 100vh;
     top: 0;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,39 +20,41 @@
     animation: aboutload 700ms ease-out;
 }
 
-@keyframes aboutload{
-    0%{
+@keyframes aboutload {
+    0% {
         transform: translateY(-30px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0%);
         opacity: 1;
     }
 }
-.content{
+
+.content {
     width: 50%;
 }
 
-.header{
+.header {
     font-weight: 700;
     font-size: 2.5em;
 }
 
-.sub-header{
+.sub-header {
     font-weight: 400;
     font-size: 1.2em;
     line-height: 1.5;
 }
 
-.btns{
+.btns {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.btns a{
+.btns a {
     text-align: center;
     text-decoration: none;
     width: 7.5em;
@@ -62,7 +64,7 @@
     font-weight: bold;
 }
 
-.contact-btn{
+.contact-btn {
     background: #023e8a;
     transition: .3s;
     color: white;
@@ -71,12 +73,13 @@
     align-items: center;
     justify-content: center;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background: #90e0ef;
     color: black;
 }
 
-.projects-btn{
+.projects-btn {
     background: #0077b6;
     transition: .3s;
     color: white;
@@ -84,13 +87,14 @@
     align-items: center;
     justify-content: center;
 }
-.projects-btn:hover{
+
+.projects-btn:hover {
     background: #90e0ef;
     color: black;
 }
 
 @media screen and (max-width: 700px) {
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -101,19 +105,19 @@
         margin: 0 1em;
     }
 
-    .content{
+    .content {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .header{
+    .header {
         font-weight: 700;
         font-size: 2em;
     }
-    .sub-header{
+
+    .sub-header {
         font-weight: 400;
         font-size: 1em;
     }
 }
-

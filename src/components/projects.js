@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import { projects } from '../data';
-import '../styles/projects.css'
+import '../styles/projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 class Projects extends Component {
     render() {
+        const element = <FontAwesomeIcon icon={faLaptopCode} />
         return (
             <section id="projects">
                 <div className="projects-container">
-                    <div className="header">
-                        <i></i>
+                    <div className="projects-header">
+                        <i>{element}</i>
                         <h1>
-                            My projects
+                            My Projects
                         </h1>
                         <p>
                             These are some projects I have completed throughout my self-learning process.

@@ -2,6 +2,7 @@ import YelpCamp from './images/YelpCampHome.png';
 import IRC from './images/rating-comp.png';
 import FAQ from './images/desktop-preview copy.png';
 import AdviceGen from './images/advicegen.png';
+import Merritt from './images/merritt.png';
 export const projects = [
     {
         title: "YelpCamp",
@@ -35,4 +36,23 @@ export const projects = [
         link: "https://christian-lee1398.github.io/advice-generator/",
         github: "https://github.com/christian-lee1398/advice-generator"
     },
+    {
+        title: "Merritt Bakery",
+        subtitle: "HTML, CSS",
+        description: "Static small business landing page",
+        image: Merritt,
+        link: "https://christian-lee1398.github.io/Merritt-Bakery/",
+        github: "https://github.com/christian-lee1398/Merritt-Bakery"
+    }
+];
+export const skills = [
+    // {skill: "Node"},
+    // {skill: "JavaScript"},
+    // {skill: "MongoDB"},
+    // {skill: "React"},
+    // {skill: "Node"},
+    // {skill: "Node"},
+    // {skill: "Node"},
+    // {skill: "Node"},
+    "HTML", "CSS", "Bootstrap", "Git/Github", "JavaScript", "React", "Node"
 ]

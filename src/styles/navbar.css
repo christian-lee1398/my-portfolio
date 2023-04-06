@@ -1,14 +1,14 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.navbar{
-    position: fixed;
+.navbar {
+    position: absolute;
     top: 0px;
     width: 100%;
     display: flex;
@@ -19,15 +19,17 @@ body{
     animation: navload 500ms;
 }
 
-@keyframes navload{
-    0%{
+@keyframes navload {
+    0% {
         transform: translateY(-100%);
     }
-    100%{
+
+    100% {
         transform: translateY(0%);
     }
 }
-.brand{
+
+.brand {
     font-size: 1.5rem;
     margin: .5rem;
     text-decoration: none;
@@ -36,17 +38,17 @@ body{
     transition: .2s;
 }
 
-.navbar-links ul{
+.navbar-links ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-links li{
+.navbar-links li {
     list-style: none;
 }
 
-.navbar-links li a{
+.navbar-links li a {
     text-decoration: none;
     color: white;
     padding: 1rem 1rem .2rem 1rem;
@@ -56,14 +58,15 @@ body{
     transition: .2s;
 }
 
-.navbar-links li a:hover{
-    border-bottom: solid #8ecae6 3px;
-}
-.brand:hover{
+.navbar-links li a:hover {
     border-bottom: solid #8ecae6 3px;
 }
 
-.toggle-button{
+.brand:hover {
+    border-bottom: solid #8ecae6 3px;
+}
+
+.toggle-button {
     position: absolute;
     top: .75rem;
     right: 1rem;
@@ -74,7 +77,7 @@ body{
     height: 20px;
 }
 
-.toggle-button .bar{
+.toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
@@ -82,25 +85,30 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-    .toggle-button{
+    .toggle-button {
         display: flex;
     }
-    .navbar-links{
+
+    .navbar-links {
         display: none;
         width: 100%;
     }
-    .navbar-links.active{
+
+    .navbar-links.active {
         display: flex;
     }
-    .navbar-links li a{
+
+    .navbar-links li a {
         padding: .3rem 1rem;
-        
+
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-    .navbar-links ul{
+
+    .navbar-links ul {
         flex-direction: column;
         width: 100%;
     }

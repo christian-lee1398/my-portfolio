@@ -2,9 +2,10 @@
     color: #495057;
     background-color: #212529;
 } */
-.projects-container{
+.projects-container {
     color: white;
     background-color: #212529;
+    background: linear-gradient(180deg, black, #212529);
     width: 100%;
     padding: 2rem 1.25rem;
     margin: 0 auto;
@@ -12,33 +13,44 @@
     justify-content: center;
     align-items: center;
 }
-.header{
+
+.projects-header {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 2rem;
 }
-.header h1{
-    font-size: 1em;
+
+.projects-header i {
+    font-size: 2.5em;
 }
-.header p{
-    font-size: 0.5em;
+
+.projects-header h1 {
+    font-size: 2em;
 }
-.gallery{
+
+.projects-header p {
+    font-size: 1.2em;
+}
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
     margin: 1.5rem;
 }
-.thumbnail-link{
+
+.thumbnail-link {
     width: 100%;
     padding: 1rem;
     text-decoration: none;
 }
-.thumbnail{
+
+.thumbnail {
     display: flex;
     position: relative;
 }
-.proj-img{
+
+.proj-img {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -46,7 +58,8 @@
     object-fit: cover;
     object-position: center;
 }
-.proj-info{
+
+.proj-info {
     position: relative;
     padding: 2.5rem 2rem;
     z-index: 10;
@@ -55,32 +68,37 @@
     border-color: #343a40;
     background-color: #212529;
     opacity: 0;
-    
+
 }
-.proj-info:hover{
+
+.proj-info:hover {
     opacity: 1;
 }
-.subtitle{
+
+.subtitle {
     letter-spacing: 0.1em;
-    font-size: 0.875rem; 
-    line-height: 1.25rem; 
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     font-weight: 500;
     color: #61dafb;
     margin-bottom: 0.25rem;
-    
+
 }
-.title{
-    font-size: 1.125rem; 
-    line-height: 1.75rem; 
+
+.title {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     font-weight: 500;
     color: white;
     margin-bottom: 0.75rem;
 }
-.description{
+
+.description {
     line-height: 1.625;
     color: gray;
 }
-.live-link{
+
+.live-link {
     display: inline-flex;
     color: black;
     background-color: #61dafb;
@@ -92,11 +110,12 @@
     text-decoration: none;
     margin: 0 .25rem;
 }
-.live-link:hover{
+
+.live-link:hover {
     background-color: #caf0f8;
 }
 
-.github-link{
+.github-link {
     display: inline-flex;
     color: white;
     background-color: #023e8a;
@@ -108,11 +127,13 @@
     text-decoration: none;
     margin: 0 .25rem;
 }
-.github-link:hover{
+
+.github-link:hover {
     background-color: #03045e;
 }
+
 @media screen and (min-width: 640px) {
-    .thumbnail-link{
+    .thumbnail-link {
         width: 50%;
     }
 }
