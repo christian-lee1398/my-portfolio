@@ -1,0 +1,66 @@
+#contact {
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1.25rem 2.5rem;
+    margin: 0 auto;
+    background-color: #191919;
+}
+
+.contact-content {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 66.66667%;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    border: 0;
+    margin: 0;
+}
+
+.map-display {
+    position: absolute;
+    inset: 0px;
+}
+
+.map-address-container {
+    background-color: #191919;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1.5rem 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.map-address-container h2 {
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.map-address-container p {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.map-address-container a {
+    color: rgb(129 140 248);
+    line-height: 1.625;
+    font-size: 0.75rem;
+}
+
+.map-address-content {
+    width: 100%;
+    padding: 0 1rem;
+}
