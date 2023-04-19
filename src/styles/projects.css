@@ -68,7 +68,7 @@
     border-color: #343a40;
     background-color: #212529;
     opacity: 0;
-
+    transition: .2s;
 }
 
 .proj-info:hover {
@@ -109,6 +109,7 @@
     line-height: 1.75rem;
     text-decoration: none;
     margin: 0 .25rem;
+    transition: .2s;
 }
 
 .live-link:hover {
@@ -126,6 +127,7 @@
     line-height: 1.75rem;
     text-decoration: none;
     margin: 0 .25rem;
+    transition: .2s;
 }
 
 .github-link:hover {
