@@ -4,6 +4,7 @@
 
 .contact-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 1.25rem 2.5rem;
@@ -17,7 +18,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    width: 66.66667%;
+    width: 60%;
     border-radius: 0.5rem;
     padding: 2.5rem;
     border: 0;
@@ -29,7 +30,7 @@
     inset: 0px;
 }
 
-.map-address-container {
+.map-info-container {
     background-color: #191919;
     color: white;
     position: relative;
@@ -42,25 +43,127 @@
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
-.map-address-container h2 {
+.map-info-container h2 {
     font-weight: 600;
     letter-spacing: 0.1em;
     font-size: 1rem;
     line-height: 1rem;
 }
 
-.map-address-container p {
+.map-info-container p {
     margin-top: 0.25rem;
     font-size: 0.75rem;
 }
 
-.map-address-container a {
+.map-info-container a {
     color: rgb(129 140 248);
     line-height: 1.625;
     font-size: 0.75rem;
 }
 
-.map-address-content {
+.map-address {
     width: 100%;
     padding: 0 1rem;
+}
+
+.contact-form {
+    width: 33%;
+    margin-left: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form h2 {
+    font-size: 45px;
+}
+
+.contact-form p {
+    font-size: 15px;
+    margin: 0 1.3rem 2rem 1.3rem;
+    letter-spacing: 1px;
+}
+
+.name-entry {
+    margin: 1rem 0;
+}
+
+.name-entry input {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    border-width: 1px;
+    border-color: #343a40;
+    border-radius: 0.25rem;
+    line-height: 1.75rem;
+}
+
+.name-entry input:focus {
+    box-shadow: 0px 0px 2px 2px #6366f1;
+    outline: none;
+}
+
+.name-entry label {
+    float: left;
+}
+
+.email-entry {
+    margin: 1rem 0;
+}
+
+.email-entry input {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    border-width: 1px;
+    border-color: #343a40;
+    border-radius: 0.25rem;
+    line-height: 1.75rem;
+}
+
+.email-entry input:focus {
+    box-shadow: 0px 0px 2px 2px #6366f1;
+    outline: none;
+}
+
+.email-entry label {
+    float: left;
+}
+
+.message-entry {
+    margin: 1rem 0;
+}
+
+.message-entry textarea {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    border-width: 1px;
+    border-color: #343a40;
+    border-radius: 0.25rem;
+    line-height: 1.75rem;
+}
+
+.message-entry textarea:focus {
+    box-shadow: 0px 0px 2px 2px #6366f1;
+    outline: none;
+}
+
+.message-entry label {
+    float: left;
+}
+
+.submit-button {
+    background-color: #6366f1;
+    color: white;
+    border-width: 1px;
+    border-color: #6366f1;
+    border-radius: 0.25rem;
+    line-height: 1.75rem;
+    transition: .2s;
+}
+
+.submit-button:hover {
+    background-color: #999bf2;
 }
