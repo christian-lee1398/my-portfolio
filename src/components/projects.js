@@ -17,7 +17,7 @@ class Projects extends Component {
                         </h1>
                         <p>
                             These are some projects I have completed throughout my self-learning process.
-                            However, I am always looking to learn more!
+                            However, I do plan on building much more!
                         </p>
                     </div>
                     <div className="gallery">
