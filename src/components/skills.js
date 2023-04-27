@@ -16,7 +16,7 @@ class Skills extends Component {
                     <div className="skills-header">
                         <i>{skillLogo}</i>
                         <h1>Skills/Technologies</h1>
-                        <p>The following are technologies I have worked with in the past.
+                        <p>The following are technologies I have worked with in the past/currently work with.
                             I am always willing to learn new technologies as well!</p>
                     </div>
                     <div className="skills-grid">
