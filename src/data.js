@@ -3,6 +3,7 @@ import IRC from './images/rating-comp.png';
 import FAQ from './images/desktop-preview copy.png';
 import AdviceGen from './images/advicegen.png';
 import Merritt from './images/merritt.png';
+import MealGen from './images/mealGen.png';
 export const projects = [
     {
         title: "YelpCamp",
@@ -43,6 +44,14 @@ export const projects = [
         image: Merritt,
         link: "https://christian-lee1398.github.io/Merritt-Bakery/",
         github: "https://github.com/christian-lee1398/Merritt-Bakery"
+    },
+    {
+        title: "Healthy Meal Generator",
+        subtitle: "ReactJS",
+        description: "Simple React app that generates a random meal",
+        image: MealGen,
+        link: "https://fascinating-boba-6c7a31.netlify.app/",
+        github: "https://github.com/christian-lee1398/mealbuilder"
     }
 ];
 export const skills = [
